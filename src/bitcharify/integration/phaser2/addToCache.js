@@ -1,11 +1,10 @@
 import { BaseTexture, Rectangle, Texture } from "@vpmedia/phaser";
 
 /**
- * TBD
- *
- * @param {object} fontData TBD
- * @param {BaseTexture} baseTexture TBD
- * @returns {object} TBD
+ * TBD.
+ * @param {object} fontData - TBD.
+ * @param {BaseTexture} baseTexture - TBD.
+ * @returns {object} TBD.
  */
 function getBitmapFontData(fontData, baseTexture) {
   const xSpacing = fontData.xSpacing || 0;
@@ -43,12 +42,11 @@ function getBitmapFontData(fontData, baseTexture) {
 }
 
 /**
- * TBD
- *
- * @param {object} game TBD
- * @param {string} key TBD
- * @param {object} fontData TBD
- * @param {HTMLImageElement|HTMLCanvasElement} textureSource TBD
+ * TBD.
+ * @param {object} game - TBD.
+ * @param {string} key - TBD.
+ * @param {object} fontData - TBD.
+ * @param {HTMLImageElement|HTMLCanvasElement} textureSource - TBD.
  */
 export function addToCache(game, key, fontData, textureSource) {
   const baseTexture = new BaseTexture(textureSource);
