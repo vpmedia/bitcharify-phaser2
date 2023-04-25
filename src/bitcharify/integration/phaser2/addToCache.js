@@ -43,7 +43,7 @@ function getBitmapFontData(fontData, baseTexture) {
 
 /**
  * TBD.
- * @param {object} game - TBD.
+ * @param {import('@vpmedia/phaser').Game} game - TBD.
  * @param {string} key - TBD.
  * @param {object} fontData - TBD.
  * @param {HTMLImageElement|HTMLCanvasElement} textureSource - TBD.
