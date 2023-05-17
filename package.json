@@ -46,6 +46,6 @@
     "node": ">=19.0.0"
   },
   "dependencies": {
-    "@vpmedia/phaser": "^1.27.0"
+    "@vpmedia/phaser": "^1.28.0"
   }
 }
