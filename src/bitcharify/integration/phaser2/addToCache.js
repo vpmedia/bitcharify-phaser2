@@ -1,4 +1,4 @@
-import { BaseTexture, Rectangle, Texture } from "@vpmedia/phaser";
+import { BaseTexture, Rectangle, Texture } from '@vpmedia/phaser';
 
 /**
  * TBD.
