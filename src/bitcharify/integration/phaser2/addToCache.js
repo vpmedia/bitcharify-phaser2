@@ -15,8 +15,8 @@ function getBitmapFontData(fontData, baseTexture) {
     lineHeight: fontData.common[0].lineHeight + ySpacing,
     chars: {},
   };
-  for (let i = 0; i < fontData.char.length; i += 1) {
-    const char = fontData.char[i];
+  for (let index = 0; index < fontData.char.length; index += 1) {
+    const char = fontData.char[index];
     const charCode = char.id;
     bitmapFontData.chars[charCode] = {
       x: char.x,
@@ -31,8 +31,8 @@ function getBitmapFontData(fontData, baseTexture) {
     const letter = bitmapFontData.chars[charCode];
     letter.texture = new Texture(baseTexture, new Rectangle(letter.x, letter.y, letter.width, letter.height));
   }
-  for (let i = 0; i < fontData.kerning.length; i += 1) {
-    const kerning = fontData.kerning[i];
+  for (let index = 0; index < fontData.kerning.length; index += 1) {
+    const kerning = fontData.kerning[index];
     const first = kerning.first;
     const second = kerning.second;
     const amount = kerning.amount;
