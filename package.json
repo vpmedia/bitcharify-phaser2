@@ -48,6 +48,6 @@
     "not op_mini all"
   ],
   "dependencies": {
-    "@vpmedia/phaser": "^1.53.0"
+    "@vpmedia/phaser": "^1.54.0"
   }
 }
