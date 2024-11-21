@@ -6,7 +6,7 @@ import { BaseTexture, Rectangle, Texture } from '@vpmedia/phaser';
  * @param {BaseTexture} baseTexture - TBD.
  * @returns {object} TBD.
  */
-function getBitmapFontData(fontData, baseTexture) {
+const getBitmapFontData = (fontData, baseTexture) => {
   const xSpacing = fontData.xSpacing || 0;
   const ySpacing = fontData.ySpacing || 0;
   const bitmapFontData = {
@@ -29,7 +29,12 @@ function getBitmapFontData(fontData, baseTexture) {
       kerning: {},
     };
     const letter = bitmapFontData.chars[charCode];
-    letter.texture = new Texture(baseTexture, new Rectangle(letter.x, letter.y, letter.width, letter.height));
+    letter.texture = new Texture(
+      baseTexture,
+      new Rectangle(letter.x, letter.y, letter.width, letter.height),
+      null,
+      null
+    );
   }
   for (let index = 0; index < fontData.kerning.length; index += 1) {
     const kerning = fontData.kerning[index];
@@ -39,17 +44,17 @@ function getBitmapFontData(fontData, baseTexture) {
     bitmapFontData.chars[second].kerning[first] = amount;
   }
   return bitmapFontData;
-}
+};
 
 /**
  * TBD.
  * @param {import('@vpmedia/phaser').Game} game - TBD.
  * @param {string} key - TBD.
  * @param {object} fontData - TBD.
- * @param {HTMLImageElement|HTMLCanvasElement} textureSource - TBD.
+ * @param {HTMLCanvasElement} textureSource - TBD.
  */
-export function addToCache(game, key, fontData, textureSource) {
-  const baseTexture = new BaseTexture(textureSource);
+export const addToCache = (game, key, fontData, textureSource) => {
+  const baseTexture = new BaseTexture(textureSource, null);
   const cacheData = {
     url: null,
     data: null,
@@ -58,4 +63,4 @@ export function addToCache(game, key, fontData, textureSource) {
   };
   cacheData.font = getBitmapFontData(fontData, baseTexture);
   game.cache._cache.bitmapFont[key] = cacheData;
-}
+};

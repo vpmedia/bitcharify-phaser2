@@ -51,11 +51,9 @@ export default [
       ...js.configs.recommended.rules,
       ...jsdocPlugin.configs['flat/recommended'].rules,
       ...unicornPlugin.configs['flat/recommended'].rules,
-      'unicorn/filename-case': 'warn',
-      'unicorn/no-null': 'warn',
+      'unicorn/filename-case': 'off',
+      'unicorn/no-null': 'off',
       'no-unused-vars': 'off',
-      'prefer-arrow-callback': 'warn',
-      'prefer-template': 'warn',
       'jsdoc/require-jsdoc': [
         'warn',
         {
