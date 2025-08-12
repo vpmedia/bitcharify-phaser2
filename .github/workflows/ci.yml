@@ -16,7 +16,7 @@ jobs:
       matrix:
         node-version: [24.x]
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@v5
       - name: Setup git user
         run: |
           git config --global user.name "vpmedia"
@@ -35,7 +35,7 @@ jobs:
       - name: Post to a Slack channel
         # https://github.com/slackapi/slack-github-action
         id: slack
-        uses: slackapi/slack-github-action@v2.0.0
+        uses: slackapi/slack-github-action@v2.1.1
         with:
           errors: true
           method: chat.postMessage
