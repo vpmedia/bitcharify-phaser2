@@ -12,8 +12,8 @@ importers:
         specifier: ^24.5.2
         version: 24.5.2
       '@vpmedia/phaser':
-        specifier: ^1.82.0
-        version: 1.82.0
+        specifier: ^1.83.0
+        version: 1.83.0
     devDependencies:
       '@eslint/js':
         specifier: ^9.36.0
@@ -522,11 +522,11 @@ packages:
   '@vitest/utils@3.2.4':
     resolution: {integrity: sha512-fB2V0JFrQSMsCo9HiSq3Ezpdv4iYaXRG1Sx8edX3MwxfyNn83mKiGzOcH+Fkxt4MHxr3y42fQi1oeAInqgX2QA==}
 
-  '@vpmedia/phaser@1.82.0':
-    resolution: {integrity: sha512-UuwR1iC0b1ijwLQ8QAphadhPNz6oH/+dEeE1E8ihmmgfu3EppBlg3eTJAKJH7wEfSciAhyz7WdYpQ3xgXMsG1g==}
+  '@vpmedia/phaser@1.83.0':
+    resolution: {integrity: sha512-Zce2JbRRO7WPtmq/ladEdCRimKW+/m8fTWAhXgU4TkQvNxNQ6rNTk+61neYZDdYuH95T0rjwIbNwyfyds3qrJQ==}
 
-  '@vpmedia/simplify@1.29.0':
-    resolution: {integrity: sha512-tiWZhLQoorvuKVzFXR8LWDS9hPu7l6u1iYyNnTWU0muhQoC8GJVKkx60tKtcNN0dZwYbARNE27W0KCEy+v6JZA==}
+  '@vpmedia/simplify@1.30.0':
+    resolution: {integrity: sha512-blffp7QpbDUWhVO/CVaBtI49ypbP74T7FXnZbFSybkX1S6yv2EGeVI3LyPDukNijtvaHEw5eOKCJDg6lgU0zEw==}
 
   acorn-jsx@5.3.2:
     resolution: {integrity: sha512-rq9s+JNhf0IChjtDXxllJ7g41oZk5SlXtp0LHwyA5cejwn7vKmKp4pPri6YEePv2PU65sAsegbXtIinmDFDXgQ==}
@@ -1277,8 +1277,8 @@ packages:
   uri-js@4.4.1:
     resolution: {integrity: sha512-7rKUyy33Q1yc98pQ1DAmLtwX109F7TIfWlW1Ydo8Wl1ii1SeHieeh0HHfPeL2fMXK6z0s8ecKs9frCuLJvndBg==}
 
-  uuid@11.1.0:
-    resolution: {integrity: sha512-0/A9rDy9P7cJ+8w1c9WD9V//9Wj15Ce2MPz8Ri6032usz+NfePxx5AcN3bN+r6ZL6jEo066/yNYB3tn4pQEx+A==}
+  uuid@13.0.0:
+    resolution: {integrity: sha512-XQegIaBTVUjSHliKqcnFqYypAd4S+WCYt5NIeRs6w/UAry7z8Y9j5ZwRRL4kzq9U3sD6v+85er9FvkEaBpji2w==}
     hasBin: true
 
   vite-node@3.2.4:
@@ -1794,13 +1794,15 @@ snapshots:
       loupe: 3.2.1
       tinyrainbow: 2.0.0
 
-  '@vpmedia/phaser@1.82.0':
+  '@vpmedia/phaser@1.83.0':
     dependencies:
-      '@vpmedia/simplify': 1.29.0
-      uuid: 11.1.0
+      '@types/node': 24.5.2
+      '@vpmedia/simplify': 1.30.0
+      uuid: 13.0.0
 
-  '@vpmedia/simplify@1.29.0':
+  '@vpmedia/simplify@1.30.0':
     dependencies:
+      '@types/node': 24.5.2
       eventemitter3: 5.0.1
 
   acorn-jsx@5.3.2(acorn@8.15.0):
@@ -2569,7 +2571,7 @@ snapshots:
     dependencies:
       punycode: 2.3.1
 
-  uuid@11.1.0: {}
+  uuid@13.0.0: {}
 
   vite-node@3.2.4(@types/node@24.5.2):
     dependencies:
