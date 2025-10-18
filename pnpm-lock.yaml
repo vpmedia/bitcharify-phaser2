@@ -561,8 +561,8 @@ packages:
   '@vpmedia/phaser@1.85.0':
     resolution: {integrity: sha512-vAz1FlJREm9yN/JfsfPMFlxeF8l6FK6Jih8WP/8Gg62S5dl1Wyopr+rBumdG33FULvyW4AiibWKVL0XA5UM0eQ==}
 
-  '@vpmedia/simplify@1.44.0':
-    resolution: {integrity: sha512-R0F/i+3WvjL2KTNGq5xi1d7ichxPuE2un17CCL7+vUeaw+BX1zQYXa5Qq9tmNsiZ5Ww07QaC4pYbk4EdwhJu6g==}
+  '@vpmedia/simplify@1.45.0':
+    resolution: {integrity: sha512-EBoiH/kgRCDK6/5S9BUkT/ype1giQ/piRQXdBx77z3SLCgCvNJ9S2zktMaorfMbtxnw3r+YLgzPKzvOnoZXFrw==}
 
   acorn-jsx@5.3.2:
     resolution: {integrity: sha512-rq9s+JNhf0IChjtDXxllJ7g41oZk5SlXtp0LHwyA5cejwn7vKmKp4pPri6YEePv2PU65sAsegbXtIinmDFDXgQ==}
@@ -1892,10 +1892,10 @@ snapshots:
   '@vpmedia/phaser@1.85.0':
     dependencies:
       '@types/node': 24.8.1
-      '@vpmedia/simplify': 1.44.0
+      '@vpmedia/simplify': 1.45.0
       uuid: 13.0.0
 
-  '@vpmedia/simplify@1.44.0':
+  '@vpmedia/simplify@1.45.0':
     dependencies:
       eventemitter3: 5.0.1
     optionalDependencies:
