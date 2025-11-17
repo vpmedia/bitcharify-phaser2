@@ -24,6 +24,8 @@
     "@vpmedia/phaser": "^1.85.0"
   },
   "devDependencies": {
+    "@commitlint/cli": "^20.1.0",
+    "@commitlint/config-conventional": "^20.0.0",
     "@eslint/js": "^9.39.1",
     "@types/node": "^24.10.1",
     "@vitest/coverage-v8": "^4.0.9",
