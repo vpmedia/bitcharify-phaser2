@@ -1,2 +1,6 @@
 onlyBuiltDependencies:
   - esbuild
+trustPolicy: no-downgrade
+minimumReleaseAge: 2880
+minimumReleaseAgeExclude:
+  - '@vpmedia/bitcharify'
