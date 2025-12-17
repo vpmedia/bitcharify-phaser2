@@ -21,7 +21,7 @@
   "types": "./types/index.d.ts",
   "type": "module",
   "dependencies": {
-    "@vpmedia/phaser": "^1.95.0"
+    "@vpmedia/phaser": "^1.96.0"
   },
   "devDependencies": {
     "@commitlint/cli": "^20.2.0",

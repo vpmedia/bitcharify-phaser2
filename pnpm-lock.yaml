@@ -9,8 +9,8 @@ importers:
   .:
     dependencies:
       '@vpmedia/phaser':
-        specifier: ^1.95.0
-        version: 1.95.0
+        specifier: ^1.96.0
+        version: 1.96.0
     devDependencies:
       '@commitlint/cli':
         specifier: ^20.2.0
@@ -773,11 +773,11 @@ packages:
   '@vitest/utils@4.0.16':
     resolution: {integrity: sha512-h8z9yYhV3e1LEfaQ3zdypIrnAg/9hguReGZoS7Gl0aBG5xgA410zBqECqmaF/+RkTggRsfnzc1XaAHA6bmUufA==}
 
-  '@vpmedia/phaser@1.95.0':
-    resolution: {integrity: sha512-o0uYFnsrEtd+/G2rDoGhHctcBEbqAFjxZwSzoKPdnNb6CcCkOKM/fGXAW3aq8uxwjbf9J52t6VzAOC9JcFLy4Q==}
+  '@vpmedia/phaser@1.96.0':
+    resolution: {integrity: sha512-3MRSw0EvaoNR1kci2R8zymnhqKuxrNqdO8k/mpV5hWsS69nFnrnlJd1NBTgxwx5WgfyQnSGQi5YVxRojUDtpZw==}
 
-  '@vpmedia/simplify@1.52.0':
-    resolution: {integrity: sha512-ecPwNs3nWejvjjX20IupWEzwY/pNROZfKEAQClmchbgwpyu6Iev2Oc1ohJNSddNny3Qm/MGEJSJCKYXmCZR/4g==}
+  '@vpmedia/simplify@1.53.0':
+    resolution: {integrity: sha512-7VhCtfDk8ndWH21NqQSPK88LD69oV9LjfsnaIPwlKtvoX0VkdDYzaQdDucHug14O7mmYp9qatjkWXLJMOuZefQ==}
 
   JSONStream@1.3.5:
     resolution: {integrity: sha512-E+iruNOY8VV9s4JEbe1aNEm6MiszPRr/UfcHMz0TQh1BXSxHK+ASV1R6W4HpjBhSeS+54PIsAMCBmwD06LLsqQ==}
@@ -2477,12 +2477,12 @@ snapshots:
       '@vitest/pretty-format': 4.0.16
       tinyrainbow: 3.0.3
 
-  '@vpmedia/phaser@1.95.0':
+  '@vpmedia/phaser@1.96.0':
     dependencies:
-      '@vpmedia/simplify': 1.52.0
+      '@vpmedia/simplify': 1.53.0
       uuid: 13.0.0
 
-  '@vpmedia/simplify@1.52.0':
+  '@vpmedia/simplify@1.53.0':
     dependencies:
       eventemitter3: 5.0.1
     optionalDependencies:

@@ -1,10 +1,10 @@
 import { BaseTexture, Rectangle, Texture } from '@vpmedia/phaser';
 
 /**
- * TBD.
- * @param {object} fontData - TBD.
- * @param {BaseTexture} baseTexture - TBD.
- * @returns {object} TBD.
+ * Extracts bitmap font data from font data and base texture.
+ * @param {object} fontData - The font data object containing character and kerning information.
+ * @param {BaseTexture} baseTexture - The base texture for the font.
+ * @returns {object} The processed bitmap font data with character and kerning information.
  */
 const getBitmapFontData = (fontData, baseTexture) => {
   const xSpacing = fontData.xSpacing || 0;
@@ -47,11 +47,11 @@ const getBitmapFontData = (fontData, baseTexture) => {
 };
 
 /**
- * TBD.
- * @param {import('@vpmedia/phaser').Game} game - TBD.
- * @param {string} key - TBD.
- * @param {object} fontData - TBD.
- * @param {HTMLCanvasElement} textureSource - TBD.
+ * Adds bitmap font data to the game's cache.
+ * @param {import('@vpmedia/phaser').Game} game - The Phaser game instance.
+ * @param {string} key - The cache key for the bitmap font.
+ * @param {object} fontData - The font data object containing character and kerning information.
+ * @param {HTMLCanvasElement} textureSource - The canvas element containing the font texture.
  */
 export const addToCache = (game, key, fontData, textureSource) => {
   const baseTexture = new BaseTexture(textureSource, null);
