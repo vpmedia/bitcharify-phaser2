@@ -44,6 +44,7 @@
   },
   "scripts": {
     "build": "exit 0",
+    "check": "pnpm lint && pnpm test && pnpm typecheck",
     "test": "vitest --coverage --pass-with-no-tests",
     "lint": "eslint \"**/*.{js,jsx}\"",
     "typecheck": "tsc",
