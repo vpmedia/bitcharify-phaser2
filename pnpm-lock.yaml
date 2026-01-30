@@ -801,8 +801,8 @@ packages:
   '@vpmedia/phaser@1.100.0':
     resolution: {integrity: sha512-uC3srFu2lwmj55vApkntWLKhS68V0GXnl/hB6FuJAYtO5bRPNeXh362jEc3/7vOgAjQYFcO5Tt5qo+cOqpgrgQ==}
 
-  '@vpmedia/simplify@1.64.0':
-    resolution: {integrity: sha512-kQXhr/poxSjjkObmLj6wd19gUEA5GG+4ISB4eMiHw7A0c1chEE1Exv75u2Tcz/JVg9tztGkVb3cezXUJubpUCA==}
+  '@vpmedia/simplify@1.65.0':
+    resolution: {integrity: sha512-ZKzWums/k6F6kQV5WrPYjbF054JHBhoaScuz7O8N7lIrO0sFpZw3TArFIpJR/LTKTYVuvfl6Rxm37TG4PFKQWg==}
 
   JSONStream@1.3.5:
     resolution: {integrity: sha512-E+iruNOY8VV9s4JEbe1aNEm6MiszPRr/UfcHMz0TQh1BXSxHK+ASV1R6W4HpjBhSeS+54PIsAMCBmwD06LLsqQ==}
@@ -2513,10 +2513,10 @@ snapshots:
 
   '@vpmedia/phaser@1.100.0':
     dependencies:
-      '@vpmedia/simplify': 1.64.0
+      '@vpmedia/simplify': 1.65.0
       uuid: 13.0.0
 
-  '@vpmedia/simplify@1.64.0':
+  '@vpmedia/simplify@1.65.0':
     dependencies:
       eventemitter3: 5.0.4
     optionalDependencies:
