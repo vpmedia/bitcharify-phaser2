@@ -21,7 +21,7 @@
   "types": "./types/index.d.ts",
   "type": "module",
   "dependencies": {
-    "@vpmedia/phaser": "^1.100.0"
+    "@vpmedia/phaser": "^1.101.0"
   },
   "devDependencies": {
     "@commitlint/cli": "^20.4.1",
@@ -30,7 +30,7 @@
     "@types/node": "^25.2.0",
     "@vitest/coverage-v8": "^4.0.18",
     "eslint": "^9.39.2",
-    "eslint-plugin-jsdoc": "^62.5.1",
+    "eslint-plugin-jsdoc": "^62.5.2",
     "eslint-plugin-oxlint": "^1.43.0",
     "eslint-plugin-unicorn": "^62.0.0",
     "globals": "^17.3.0",
