@@ -735,8 +735,8 @@ packages:
   '@vpmedia/phaser@1.101.0':
     resolution: {integrity: sha512-7UYeD0PyAZ6HMbrzNVTIa2qaaDVfIxBoN/Ul9JBZd//n+GF654aaLkEOxbfrU4glQV0mmMWCRtnjVRk8sNNblg==}
 
-  '@vpmedia/simplify@1.71.0':
-    resolution: {integrity: sha512-KyuRRGXRbuGA48e/LMNGFhst5XnrrXXLfBb3+PWX+8jPmgl6eKl9kr3FZ8UQBQEW2ojgxLq+Ilc3EJHp8HePlA==}
+  '@vpmedia/simplify@1.72.0':
+    resolution: {integrity: sha512-IUkwIu/s47ODEKuwS3gPPIap1iK7HLFrxYkCXTkAdz+IPMWM3WWl00mBi/HHclqegEa1Fog5MixAAPQ/SqAu0A==}
 
   agent-base@7.1.4:
     resolution: {integrity: sha512-MnA+YT8fwfJPgBx3m60MNqakm30XOkyIoH1y6huTQvC0PwZG7ki8NacLBcrPbNoo8vEZy7Jpuk7+jMO+CUovTQ==}
@@ -1867,10 +1867,10 @@ snapshots:
 
   '@vpmedia/phaser@1.101.0':
     dependencies:
-      '@vpmedia/simplify': 1.71.0
+      '@vpmedia/simplify': 1.72.0
       uuid: 13.0.0
 
-  '@vpmedia/simplify@1.71.0':
+  '@vpmedia/simplify@1.72.0':
     optionalDependencies:
       '@sentry/browser': 10.40.0
 
