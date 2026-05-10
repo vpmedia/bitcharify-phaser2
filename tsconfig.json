@@ -5,21 +5,19 @@
     "module": "NodeNext",
     "moduleResolution": "nodenext",
     "types": ["node", "vitest/globals"],
-    "allowJs": true,
-    "checkJs": true,
     "declaration": true,
     "declarationMap": true,
-    "emitDeclarationOnly": true,
-    "declarationDir": "./types",
+    "sourceMap": true,
+    "outDir": "./dist",
     "rootDir": "./src",
     "isolatedModules": true,
     "esModuleInterop": true,
     "forceConsistentCasingInFileNames": true,
     "strict": true,
-    "noImplicitAny": false,
-    "strictNullChecks": false,
+    "noImplicitAny": true,
+    "strictNullChecks": true,
     "skipLibCheck": true
   },
-  "include": ["./src/**/*", "./typedefs/**/*"],
-  "exclude": ["./src/**/*.test.js"]
+  "include": ["./src/**/*"],
+  "exclude": ["./src/**/*.test.ts", "./dist", "./node_modules"]
 }
