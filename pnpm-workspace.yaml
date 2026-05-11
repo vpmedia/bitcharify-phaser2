@@ -6,3 +6,4 @@ trustPolicyExclude:
 minimumReleaseAge: 1440
 minimumReleaseAgeExclude:
   - '@vpmedia/bitcharify'
+blockExoticSubdeps: true
