@@ -12,15 +12,27 @@
     "unicorn"
   ],
   "categories": {
-    "correctness": "warn",
-    "nursery": "warn",
-    "pedantic": "warn",
-    "perf": "warn",
-    "restriction": "warn",
-    "style": "warn",
-    "suspicious": "warn"
+    "correctness": "error",
+    "nursery": "off",
+    "pedantic": "error",
+    "perf": "error",
+    "restriction": "error",
+    "style": "error",
+    "suspicious": "error"
   },
   "rules": {
-    "no-unused-vars": "off"
+    "no-unused-vars": "off",
+    "capitalized-comments": "off",
+    "id-length": "off",
+    "max-params": "off",
+    "max-statements": "off",
+    "no-magic-numbers": "off",
+    "no-underscore-dangle": "off",
+    "prefer-destructuring": "off",
+    "sort-imports": "off",
+    "sort-keys": "off",
+    "typescript/prefer-for-of": "off",
+    "unicorn/filename-case": "off",
+    "unicorn/no-null": "off"
   }
 }
