@@ -21,7 +21,6 @@ Integration add-on that wires the `@vpmedia/bitcharify` bitmap font generator in
 - Lefthook: https://lefthook.dev/llms.txt
 - OXC (oxlint, oxfmt): https://oxc.rs/llms.txt
 - Rolldown: https://rolldown.rs/llms.txt
-- TypeScript: https://www.typescriptlang.org/llms.txt
 - Vitest: https://vitest.dev/llms.txt
 
 ## Commands
