@@ -41,7 +41,7 @@ const getBitmapFontData = (fontData: FontData, baseTexture: BaseTexture): Bitmap
       baseTexture,
       new Rectangle(letter.x, letter.y, letter.width, letter.height),
       null,
-      null,
+      null
     );
   }
   for (let index = 0; index < fontData.kerning.length; index += 1) {
@@ -61,12 +61,7 @@ const getBitmapFontData = (fontData: FontData, baseTexture: BaseTexture): Bitmap
  * @param fontData - The font data object containing character and kerning information.
  * @param textureSource - The canvas element containing the font texture.
  */
-export const addToCache = (
-  game: Game,
-  key: string,
-  fontData: FontData,
-  textureSource: HTMLCanvasElement,
-): void => {
+export const addToCache = (game: Game, key: string, fontData: FontData, textureSource: HTMLCanvasElement): void => {
   const baseTexture = new BaseTexture(textureSource);
   const cacheData: BitmapFontCacheEntry = {
     url: null,
