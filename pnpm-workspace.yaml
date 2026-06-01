@@ -1,9 +1,10 @@
 onlyBuiltDependencies:
   - esbuild
-trustPolicy: no-downgrade
-trustPolicyExclude:
-  - ts-api-utils
+
 minimumReleaseAge: 1440
 minimumReleaseAgeExclude:
   - '@vpmedia/bitcharify'
+
+trustPolicy: no-downgrade
+trustPolicyIgnoreAfter: 1440
 blockExoticSubdeps: true
