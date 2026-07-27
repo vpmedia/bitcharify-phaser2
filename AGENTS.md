@@ -6,15 +6,7 @@ Integration add-on that wires the `@vpmedia/bitcharify` bitmap font generator in
 
 ## Tech Stack
 
-- **Language:** TypeScript (ESM, `"type": "module"`)
-- **Runtime:** Node.js / Browser
-- **Package Manager:** pnpm (workspaces)
-- **Peer/Runtime:** `@vpmedia/phaser` (Phaser 2 modern port)
-- **Build:** Rolldown + `tsc --emitDeclarationOnly`
-- **Testing:** Vitest, @vitest/coverage-v8, happy-dom
-- **Lint/Format:** oxlint (+ `oxlint-tsgolint`), oxfmt
-- **Type Checking:** TypeScript
-- **Tooling:** lefthook (git hooks), commitlint (conventional commits)
+Read [package.json](package.json) for the language, runtime, dependencies and tooling.
 
 ## Documentation
 
@@ -31,12 +23,6 @@ Integration add-on that wires the `@vpmedia/bitcharify` bitmap font generator in
 - **Test:** `pnpm test`
 - **Lint / Format / Typecheck:** `pnpm lint` / `pnpm format` / `pnpm typecheck`
 - **All checks (incl. build):** `pnpm check`
-
-## Project Structure
-
-- `src/index.ts` — public entry point
-- `src/bitcharify/` — Phaser 2 add-on implementation
-- `dist/` — build output (gitignored)
 
 ## Conventions
 
