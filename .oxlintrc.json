@@ -19,6 +19,7 @@
     "max-statements": "off",
     "no-magic-numbers": "off",
     "no-underscore-dangle": "off",
+    "one-var": "off",
     "prefer-destructuring": "off",
     "sort-imports": "off",
     "sort-keys": "off",
