@@ -1,7 +1,5 @@
 import type { Texture } from '@vpmedia/phaser';
 
-export const TYPE_CHECKING = true;
-
 export interface FontInfo {
   face: string | string[];
   size: number;
