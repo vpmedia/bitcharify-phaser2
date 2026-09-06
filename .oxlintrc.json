@@ -1,6 +1,8 @@
 {
   "$schema": "./node_modules/oxlint/configuration_schema.json",
-  "env": { "browser": true },
+  "env": {
+    "browser": true
+  },
   "plugins": ["eslint", "jsx-a11y", "oxc", "promise", "react-perf", "react", "typescript", "unicorn"],
   "categories": {
     "correctness": "error",
@@ -12,19 +14,27 @@
     "suspicious": "error"
   },
   "rules": {
-    "no-unused-vars": "off",
     "capitalized-comments": "off",
     "id-length": "off",
     "max-params": "off",
     "max-statements": "off",
     "no-magic-numbers": "off",
     "no-underscore-dangle": "off",
+    "no-unused-vars": "off",
     "one-var": "off",
     "prefer-destructuring": "off",
     "sort-imports": "off",
     "sort-keys": "off",
+    "typescript/no-non-null-assertion": "off",
+    "typescript/no-unsafe-type-assertion": "off",
     "typescript/prefer-for-of": "off",
+    "typescript/prefer-readonly-parameter-types": "off",
+    "typescript/promise-function-async": "off",
+    "typescript/require-await": "off",
     "unicorn/filename-case": "off",
     "unicorn/no-null": "off"
+  },
+  "options": {
+    "typeAware": true
   }
 }

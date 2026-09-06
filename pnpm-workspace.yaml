@@ -4,6 +4,7 @@ onlyBuiltDependencies:
 minimumReleaseAge: 1440
 minimumReleaseAgeExclude:
   - '@vpmedia/bitcharify'
+  - '@vpmedia/phaser'
 
 trustPolicy: no-downgrade
 trustPolicyIgnoreAfter: 1440

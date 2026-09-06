@@ -9,8 +9,8 @@ importers:
   .:
     dependencies:
       '@vpmedia/phaser':
-        specifier: ^1.109.0
-        version: 1.109.0
+        specifier: ^1.111.0
+        version: 1.111.0
     devDependencies:
       '@commitlint/cli':
         specifier: ^21.2.2
@@ -1114,8 +1114,8 @@ packages:
   '@vitest/spy@5.0.0':
     resolution: {integrity: sha512-uy+luWBAPw9XfthoHi5AkfHUnuPYEESjl0p/r+meoBnU8bxg5GDQ3Ey8MjcJ6sqahkL4PFyrvfMJJBw7LbU06g==}
 
-  '@vpmedia/phaser@1.109.0':
-    resolution: {integrity: sha512-QAp/0zlwimAA7xPENe92K24CJb9Dq59gniuquSR9Bfsh4/lvk09VdWrC/4hKA2ar+mFE0ws6kK6mGoFg5lgv3A==}
+  '@vpmedia/phaser@1.111.0':
+    resolution: {integrity: sha512-JCZ+rkw57X89jVv1awPnFYtb+vbklqiuEsMHu1+XfUvRZrAYEMx+AFn9w3a/YMCOnd0GuF5K4VOHLL7EtDbQSg==}
 
   '@vpmedia/simplify@1.78.0':
     resolution: {integrity: sha512-Yd/avZRB+5Zq8YT/xlQYJc9M+vOc4QqJxKEKqGHqQoOv9A0s3SlwwUVzgCpv94gOt2l6Z7T1MIwLfRnhz58r5Q==}
@@ -2369,7 +2369,7 @@ snapshots:
 
   '@vitest/spy@5.0.0': {}
 
-  '@vpmedia/phaser@1.109.0':
+  '@vpmedia/phaser@1.111.0':
     dependencies:
       '@vpmedia/simplify': 1.78.0
       uuid: 14.0.2

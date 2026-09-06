@@ -15,8 +15,8 @@ interface BitmapFontCacheEntry {
  * @returns The processed bitmap font data with character and kerning information.
  */
 const getBitmapFontData = (fontData: FontData, baseTexture: BaseTexture): BitmapFontData => {
-  const xSpacing = fontData.xSpacing || 0;
-  const ySpacing = fontData.ySpacing || 0;
+  const xSpacing = fontData.xSpacing ?? 0;
+  const ySpacing = fontData.ySpacing ?? 0;
   const bitmapFontData: BitmapFontData = {
     font: fontData.info[0].face,
     size: fontData.info[0].size,
