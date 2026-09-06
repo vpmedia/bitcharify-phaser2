@@ -1,3 +1,55 @@
+## [1.15.0] - 2026-09-06
+
+### 🚀 Features
+
+- *(lint)* Enable type-aware oxlint
+
+### 💼 Other
+
+- *(deps)* Bump dependency versions
+- *(deps)* Bump dependency versions
+- *(deps)* Bump dependency versions
+- *(deps)* Bump dependency versions
+- *(deps)* Bump dependency versions
+- *(deps)* Bump dependency versions
+- *(deps)* Bump dependency versions
+- *(deps)* Bump dependency versions
+- *(deps)* Bump dependency versions
+- *(deps)* Bump dependency versions
+- *(deps)* Bump dependency versions
+- *(deps)* Bump dependency versions
+- *(deps)* Migrate to typescript 7
+- *(deps)* Bump dependency versions
+- *(deps)* Bump dependency versions
+- *(deps)* Bump oxfmt to 0.59.0 and rolldown to 1.2.0
+- *(deps)* Bump the github-actions group with 3 updates
+- *(deps)* Update dependencies
+- *(deps)* Update non-major dependencies
+- *(deps)* Update non-major dependencies
+- *(deps)* Update non-major dependencies
+
+### 📚 Documentation
+
+- Expand AGENTS.md with overview, tech stack, and project guide
+- *(agents)* Add Documentation section with llms.txt links
+- *(agents)* Standardize structure and commit-config wording
+- *(agents)* Remove non-existent TypeScript llms.txt link
+- Refresh AGENTS.md
+- Trim always-loaded agent context
+- Move always-loaded agent docs to on-demand loading
+
+### ⚙️ Miscellaneous Tasks
+
+- Release
+- *(ai)* Add shared clean-code rules for Claude
+- *(lint)* Switch oxlint categories to error and disable current violations
+- Enable blockExoticSubdeps in pnpm workspace
+- Migrate from jsdom to happy-dom
+- Gitignore .claude/settings.local.json
+- Update dependencies
+- Pin GitHub Actions to commit SHAs and upgrade to latest
+- *(vscode)* Enable claude hooks in the workspace settings
+- *(release)* V1.15.0
 ## [1.14.0] - 2026-05-11
 
 ### 💼 Other
